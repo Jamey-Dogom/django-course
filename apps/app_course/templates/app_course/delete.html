@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app_course/css/style.css' %}">
+
+    <title>Delete a course</title>
+</head>
+
+<body>
+    <div class="question">
+        <h1 class="bld">Are you sure you want to delete the following course?</h1>
+        <h1>Name: {{delete_course.name}}</h1>
+        <h1>Description: {{delete_course.description}}</h1>
+        <div class="buttons">
+            <a href="/" class="btn btn-light btn-lg active sp" role="button" aria-pressed="true">No</a>
+            <a href="/delete/{{delete_course.id}}" class="btn btn-danger btn-lg active sp" role="button" aria-pressed="true">Yes I want to delete
+                this</a>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.top-container {
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.pd {
+    padding: 5% 40%;
+}
+
+.mb {
+    margin-left: 67%
+}
+
+body {
+    background-color: #303841;
+    color: white;
+}
+
+.rd {
+    background-color: #eeeeee;
+}
+
+.footer {
+    padding: 2% 7%;
+}
+
+.question {
+    padding: 10% 20%;
+    text-align: left;
+}
+
+.sp {
+    margin-left: 2%;
+    padding: 10px 20px 10px 20px;
+}
+
+.buttons {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.bld {
+    font-weight: bold;
+}
